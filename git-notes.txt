@@ -1,0 +1,31 @@
+Git Notes:
+
+For Auto login over SSH:
+https://help.github.com/articles/generating-ssh-keys#platform-linux
+Server-01
+$cd ~/.ssh
+$ssh-keygen -t rsa -C "your_email@example.com"
+$ssh-add ~/.ssh/id_rsa
+
+At server - 02 :
+$mkdir .ssh
+$chmod 700 .ssh
+$cd .ssh; touch authorized_keys; chmod 600 authorized_keys; 
+$cat ../Server-01-id_dsa.pub >> authorized_keys
+
+#To log in using your key use the ssh command.
+$ssh -1 -v server-01 or ssh -2 -v server-01
+
+
+http://www.vogella.com/tutorials/Git/article.html
+http://gitref.org/ 
+http://git-scm.com/doc
+http://git-scm.com/book
+
+The following commands enables color highlighting for Git in the console.                                   
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+
+# setup vim as default editor for Git (Linux)
+git config --global core.editor vim
