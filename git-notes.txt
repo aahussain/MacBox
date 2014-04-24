@@ -16,19 +16,23 @@ $cat ../Server-01-id_dsa.pub >> authorized_keys
 #To log in using your key use the ssh command.
 $ssh -1 -v server-01 or ssh -2 -v server-01
 
-
+# Nice Urls For Git
 http://www.vogella.com/tutorials/Git/article.html
 http://gitref.org/ 
 http://git-scm.com/doc
 http://git-scm.com/book
+https://wiki.archlinux.org/index.php/git
+
 
 The following commands enables color highlighting for Git in the console.                                   
+git config --global core.editor vi
 git config --global color.ui true
 git config --global color.status auto
 git config --global color.branch auto
+git config --global alias.graph 'log --graph --oneline --decorate'
 
-# setup vim as default editor for Git (Linux)
-git config --global core.editor vim
+# Now typing git graph will run git log --graph --oneline --decorate. 
+
 
 #git bash prompt notes  " http://nathanhoad.net/git-bash-tab-completions-and-a-cool-prompt " 
 
