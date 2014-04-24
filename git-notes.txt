@@ -30,7 +30,7 @@ git config --global color.branch auto
 # setup vim as default editor for Git (Linux)
 git config --global core.editor vim
 
-#git bash prompt notes
+#git bash prompt notes  " http://nathanhoad.net/git-bash-tab-completions-and-a-cool-prompt " 
 
 Open up ~/.bash_profile in your favourite editor and paste this in somewhere. You might need to change the location of Git - this one is from my Snow Leopard standard install.
 
