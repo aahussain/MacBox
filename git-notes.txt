@@ -32,6 +32,24 @@ git config --global color.status auto
 git config --global color.branch auto
 git config --global alias.graph 'log --graph --oneline --decorate'
 
+# Push Notes
+
+# set default so that only the current branch is pushed 
+git config --global push.default simple
+# alternatively configure Git to push all matching branches
+# git config --global push.default matching
+
+# Avoid merge commits for pulling
+# set default so that you avoid unnecessary commits
+git config --global branch.autosetuprebase always 
+
+####  Setting the default merge tool 
+
+# setup kdiff3 as default merge tool (Linux)
+git config --global merge.tool kdiff3
+
+# to install it under Ubuntu use
+sudo apt-get install kdiff3 
 # Now typing git graph will run git log --graph --oneline --decorate. 
 
 
