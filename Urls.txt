@@ -1,0 +1,19 @@
+# Monitoring 
+
+#Installing “linux-dash” 
+
+http://www.tecmint.com/monitors-linux-server-performance-remotely-using-web-browser/
+
+Step 1:
+# apt-get install apache2 apache2-utils
+# apt-get install php5 curl php5-curl php5-json
+# service apache2 start
+
+Step 2: Download and Install linux-Dash
+Proceed to ‘GitHub‘ repository, download linux-dash
+ extract contents into a sub-directory called ‘linux-dash‘ in your Apache public folder (i.e. /var/www or /var/www/html).
+
+# git clone https://github.com/afaqurk/linux-dash.git
+# Now try http://localhost/linux-dash
+
+			--------------***------------------
