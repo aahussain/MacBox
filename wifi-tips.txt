@@ -15,7 +15,7 @@ $ watch -n 1 cat /proc/net/wireless
 $ iperf -c 10.50.50.14 -i 1 -n 100M   (From client to point server )
 $ iperf -s -i 1 
 
-
+# make sure you have installed ethtool and wireless-tools
 
 # Data TRansfer perfomance key points
 # http://kb.netgear.com/app/answers/detail/a_id/23655/~/troubleshooting-intermittent-wireless%2Fdropped-wi-fi-connections 
