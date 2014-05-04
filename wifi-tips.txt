@@ -12,6 +12,9 @@ $ watch -n 1 cat /proc/net/wireless
 
 # iperf Testing commands  ( https://blogs.oracle.com/mandalika/entry/measuring_network_bandwidth_using_iperf 
 
+
+# http://iperf.fr/  " Very good site"
+
 $ iperf -c 10.50.50.14 -i 1 -n 100M   (From client to point server )
 $ iperf -s -i 1 
 
