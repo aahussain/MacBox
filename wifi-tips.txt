@@ -14,3 +14,10 @@ $ watch -n 1 cat /proc/net/wireless
 
 $ iperf -c 10.50.50.14 -i 1 -n 100M   (From client to point server )
 $ iperf -s -i 1 
+
+
+
+# Data TRansfer perfomance key points
+# http://kb.netgear.com/app/answers/detail/a_id/23655/~/troubleshooting-intermittent-wireless%2Fdropped-wi-fi-connections 
+# Adjust advanced wireless settings : (NetGear]
+ change the Fragmentation Length and CTS/RTS Threshold values to 2304. test for improvement in performance.
