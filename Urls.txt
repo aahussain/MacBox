@@ -17,3 +17,8 @@ Proceed to ‘GitHub‘ repository, download linux-dash
 # Now try http://localhost/linux-dash
 
 			--------------***------------------
+
+#GIT / Gerrit -- Urls:
+
+http://qt-project.org/wiki/Gerrit-Introduction
+
