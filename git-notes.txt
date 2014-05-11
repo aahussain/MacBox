@@ -26,6 +26,12 @@ http://git-scm.com/book
 https://help.github.com/articles/github-security
 https://wiki.archlinux.org/index.php/git
 
+
+
+# setup GITWEB 
+
+http://sharadchhetri.com/2013/05/31/how-to-create-own-git-server-with-gitolite-and-gitweb-in-ubuntu/
+
 For Gerrit :   http://qt-project.org/wiki/Gerrit-Introduction   
 
 The following commands enables color highlighting for Git in the console.                                   
