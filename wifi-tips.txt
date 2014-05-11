@@ -1,0 +1,26 @@
+Check firstly if the wireless connection is available with this command:
+
+$ iwlist wlan0 scan
+$ sudo ifconfig wlan0 up
+
+# To display WiFi signal strength in the terminal, you can run this command:
+$ watch -n 1 "awk 'NR==3 {print \"WiFi Signal Strength = \" \$3 \"00 %\"}''' /proc/net/wireless"
+
+# This command has also the same function:
+
+$ watch -n 1 cat /proc/net/wireless
+
+# iperf Testing commands  ( https://blogs.oracle.com/mandalika/entry/measuring_network_bandwidth_using_iperf 
+
+
+# http://iperf.fr/  " Very good site"
+
+$ iperf -c 10.50.50.14 -i 1 -n 100M   (From client to point server )
+$ iperf -s -i 1 
+
+# make sure you have installed ethtool and wireless-tools
+
+# Data TRansfer perfomance key points
+# http://kb.netgear.com/app/answers/detail/a_id/23655/~/troubleshooting-intermittent-wireless%2Fdropped-wi-fi-connections 
+# Adjust advanced wireless settings : (NetGear]
+ change the Fragmentation Length and CTS/RTS Threshold values to 2304. test for improvement in performance.
