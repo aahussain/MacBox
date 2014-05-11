@@ -30,6 +30,13 @@ git config --global core.editor vi
 git config --global color.ui true
 git config --global color.status auto
 git config --global color.branch auto
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.up rebase
+git config --global alias.ci commit
+
 git config --global alias.graph 'log --graph --oneline --decorate'
 
 # Now typing git graph will run git log --graph --oneline --decorate. 
