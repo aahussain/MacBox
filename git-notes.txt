@@ -26,7 +26,7 @@ http://git-scm.com/book
 https://help.github.com/articles/github-security
 https://wiki.archlinux.org/index.php/git
 
-
+git clone https://github.com/git/git   ( Clone git latest Version )
 
 # setup GITWEB 
 
