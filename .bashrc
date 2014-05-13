@@ -170,3 +170,5 @@ alias svdiff='sv diff --diff-cmd fmdiff' # OS-X SPECIFIC
 
    # as last entry source the gitprompt script
    source ~/bash-git-prompt/gitprompt.sh
+
+cd ~/scratch/MacBox/
