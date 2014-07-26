@@ -1,0 +1,8 @@
+#!/bin/bash
+
+wlan=`/sbin/ifconfig wlan1 | grep inet\ addr | wc -l`
+if [ $wlan -eq 0 ]; then
+/sbin/ifdown wlan1 && /sbin/ifup wlan0
+else
+echo interface is up
+fi
